@@ -25,15 +25,15 @@ public class FinalVerdict : MonoBehaviour
         // Determine the final verdict
         if (countPercentage == 0)
         {
-            verdictText.text = "You were good hemomancer";
+            verdictText.text = "You were a good hemomancer";
         }
         else if (countPercentage <= 15)
         {
-            verdictText.text = "Almost in hemomancer heaven";
+            verdictText.text = "Almost in hemomancer heaven (or hell?)";
         }
         else if (countPercentage <= 40)
         {
-            verdictText.text = "You almost redeme yourself";
+            verdictText.text = "You almost redeemed yourself";
         }
         else if (countPercentage <= 60)
         {
