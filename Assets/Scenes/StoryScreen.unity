@@ -177,7 +177,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Now, with your final wound sealing your fate, \nyou have one last chance
-    to reddem youself."
+    to redeem yourself."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3cfd249f36da6114989758d8c736ac19, type: 2}
   m_sharedMaterial: {fileID: 237362036242608297, guid: 3cfd249f36da6114989758d8c736ac19, type: 2}
@@ -313,7 +313,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "You are a hemomancer, blood mage, \nwho has spent his entire life committing
+  m_text: "You're a hemomancer, blood mage, \nwho has spent his entire life commiting
     evil. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3cfd249f36da6114989758d8c736ac19, type: 2}
