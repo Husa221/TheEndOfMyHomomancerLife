@@ -6,11 +6,14 @@ public class AnimControler : MonoBehaviour
     public Animator animator;
     Rigidbody2D rb;
     [SerializeField] Transform grafics;
+    PlayerMovement playerMovement;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        playerMovement = GetComponent<PlayerMovement>();
+
     }
 
     // Update is called once per frame
@@ -40,6 +43,7 @@ public class AnimControler : MonoBehaviour
     }
     public void Wooloo() 
     {
+        playerMovement.isDoingMagic = true;
         animator.SetTrigger("isWololing");
     }
 }

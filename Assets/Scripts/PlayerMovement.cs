@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
     Vector2 distance;
     Rigidbody2D rb2d;
     public float moveSpeed;
+    public bool isDoingMagic = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,6 +20,10 @@ public class PlayerMovement : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        rb2d.linearVelocity = distance * moveSpeed;
+        if (!isDoingMagic)
+        {
+
+            rb2d.linearVelocity = distance * moveSpeed;
+        }
     }
 }
