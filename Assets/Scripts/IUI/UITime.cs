@@ -8,6 +8,7 @@ public class UITime : MonoBehaviour
     public float time = 100;
     [SerializeField] float timerMaxBar = 100;
     public Image timersBarMask;
+    [SerializeField] bool debugtime = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,6 +21,7 @@ public class UITime : MonoBehaviour
         {
             yield return new WaitForSeconds(1f); // poèkej 1 sekundu
             time -= 1;
+            if (debugtime)
             Debug.Log("time remaining;" + time);
         }
 
