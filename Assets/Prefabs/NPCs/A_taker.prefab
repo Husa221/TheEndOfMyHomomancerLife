@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5853721843576735339}
   - component: {fileID: 3091326150501581700}
   m_Layer: 0
-  m_Name: BloodTaker A
+  m_Name: A_taker
   m_TagString: BloodReceiver
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
