@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: dbe20240af13e48489d233a90d7d0d27
+guid: 733d897b0a84a6647b0f57d1e196ead0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -924993482101707543
-    second: menuButtonBG_0
+      213: 6486920037097010256
+    second: BloodAB_0
+  - first:
+      213: -7321296553936922948
+    second: BloodAB_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +49,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,40 +99,49 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: menuButtonBG_0
+      name: BloodAB_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 110
-        width: 1111
-        height: 166
+        x: 1
+        y: 0
+        width: 34
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9eca6cf2453c923f0800000000000000
-      internalID: -924993482101707543
+      spriteID: 054f781976b260a50800000000000000
+      internalID: 6486920037097010256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodAB_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb65c47f297856a90800000000000000
+      internalID: -7321296553936922948
       vertices: []
       indices: 
       edges: []
@@ -138,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 41889ac5c366f154ab0dbee2038caa3b
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      menuButtonBG_0: -924993482101707543
+      BloodAB_0: 6486920037097010256
+      BloodAB_1: -7321296553936922948
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
