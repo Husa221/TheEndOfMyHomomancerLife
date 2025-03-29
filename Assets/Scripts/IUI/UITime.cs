@@ -33,6 +33,10 @@ public class UITime : MonoBehaviour
     void Update()
     {
         GetStressBarFilled();
+        if(NPCCounter.npcCounter >= NPCCounter.allNpc)
+        {
+            SceneManager.LoadScene("ScoreBoard");
+        }
     }
     void GetStressBarFilled()
     {
