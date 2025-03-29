@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 22c44a26d17638643912c376c429cf0e
+guid: f652b2f84a8e96942b5bfeb903a8128b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7681775189149489396
-    second: menuButtonBG(2)_0
+      213: -3831212508185181704
+    second: barEmty_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: menuButtonBG(2)_0
+      name: barEmty_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 166
-        width: 1189
-        height: 210
+        x: 55
+        y: 40
+        width: 1252
+        height: 55
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f81aa1b5d52b9a60800000000000000
-      internalID: 7681775189149489396
+      spriteID: 8f1c69eb58cc4dac0800000000000000
+      internalID: -3831212508185181704
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 061a7f2991d215e4894880a69a7e9d4e
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      menuButtonBG(2)_0: 7681775189149489396
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

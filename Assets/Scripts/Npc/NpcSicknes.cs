@@ -63,6 +63,7 @@ public class NpcSicknes : MonoBehaviour
 
     void GiveBlood()
     {
+        NPCCounter.npcCounter++;
     animControler.Wooloo();
     }
 }
