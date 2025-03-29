@@ -6,6 +6,7 @@ public class NpcSicknes : MonoBehaviour
     [SerializeField] GameObject npcBloodUI;
     public BloodType sickBloodType;
     NPCBloodTrigger nPCBloodTrigger;
+    PlayerMovement playerMovement;
     public Animator sicknessAnimator;
     AnimControler animControler;
     private bool closeEnough = false;
@@ -14,6 +15,8 @@ public class NpcSicknes : MonoBehaviour
     {
         nPCBloodTrigger = FindAnyObjectByType<NPCBloodTrigger>();
         animControler = FindAnyObjectByType<AnimControler>();
+        playerMovement = FindAnyObjectByType<PlayerMovement>();
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -43,8 +46,13 @@ public class NpcSicknes : MonoBehaviour
         {
             if(nPCBloodTrigger.currentBloodType == sickBloodType)
             {
-                GiveBlood();
-                sicknessAnimator.SetTrigger("ishealed");
+                if (!playerMovement.isDoingMagic)
+                {
+                    GiveBlood();
+                }
+                    sicknessAnimator.SetTrigger("ishealed");
+                
+                
             }
             else
             {
