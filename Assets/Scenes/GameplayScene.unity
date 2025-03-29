@@ -458,8 +458,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1386181563
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 0.6855345, g: 0.29033127, b: 0.1746172, a: 1}
@@ -586,8 +586,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2.06}
+  m_Offset: {x: 0, y: -0.52}
+  m_Size: {x: 1, y: 0.91}
   m_Direction: 0
 --- !u!4 &448124217
 Transform:
@@ -679,8 +679,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1386181563
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 0.6855345, g: 0.29033127, b: 0.1746172, a: 1}
@@ -1550,8 +1550,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2.06}
+  m_Offset: {x: 0, y: -0.56}
+  m_Size: {x: 1, y: 0.72}
   m_Direction: 0
 --- !u!4 &667506654
 Transform:
@@ -1728,8 +1728,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2.06}
+  m_Offset: {x: 0, y: -0.52}
+  m_Size: {x: 1, y: 0.91}
   m_Direction: 0
 --- !u!4 &769645732
 Transform:
@@ -1821,8 +1821,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1386181563
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 0.37492365, g: 0.6377357, b: 0.3405268, a: 1}
@@ -1964,8 +1964,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2.06}
+  m_Offset: {x: 0, y: -0.56}
+  m_Size: {x: 1, y: 0.72}
   m_Direction: 0
 --- !u!4 &973740495
 Transform:
@@ -2461,8 +2461,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1386181563
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 0.37492365, g: 0.6377357, b: 0.3405268, a: 1}
@@ -2672,8 +2672,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2.06}
+  m_Offset: {x: 0, y: -0.56}
+  m_Size: {x: 1, y: 0.72}
   m_Direction: 0
 --- !u!4 &1100979182
 Transform:
@@ -2795,7 +2795,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164359713}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000016391274, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.0000015795227, w: 1}
   m_LocalPosition: {x: 6.63, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3136,8 +3136,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1386181563
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 0.37492365, g: 0.6377357, b: 0.3405268, a: 1}
@@ -3547,7 +3547,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1966819611103554515, guid: f348829387f82464884df8fae95bb92e, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.011572607
+      value: 0.01157264
       objectReference: {fileID: 0}
     - target: {fileID: 1966819611103554515, guid: f348829387f82464884df8fae95bb92e, type: 3}
       propertyPath: m_LocalRotation.y
@@ -3599,7 +3599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6732725700066502647, guid: f348829387f82464884df8fae95bb92e, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.111794055
+      value: 0.11179425
       objectReference: {fileID: 0}
     - target: {fileID: 6732725700066502647, guid: f348829387f82464884df8fae95bb92e, type: 3}
       propertyPath: m_LocalRotation.y
@@ -3841,8 +3841,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1386181563
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 0.6855345, g: 0.29033127, b: 0.1746172, a: 1}
@@ -4162,8 +4162,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2.06}
+  m_Offset: {x: 0, y: -0.52}
+  m_Size: {x: 1, y: 0.91}
   m_Direction: 0
 --- !u!4 &2125773047
 Transform:

@@ -6,11 +6,13 @@ public class NpcSicknes : MonoBehaviour
     [SerializeField] GameObject npcBloodUI;
     public BloodType sickBloodType;
     NPCBloodTrigger nPCBloodTrigger;
+    AnimControler animControler;
     private bool closeEnough = false;
 
     private void Awake()
     {
         nPCBloodTrigger = FindAnyObjectByType<NPCBloodTrigger>();
+        animControler = FindAnyObjectByType<AnimControler>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -40,12 +42,18 @@ public class NpcSicknes : MonoBehaviour
         {
             if(nPCBloodTrigger.currentBloodType == sickBloodType)
             {
-                Destroy(gameObject);
+                GiveBlood();
             }
             else
             {
                 Debug.Log("spatnej typ krve");
             }
         }
+    }
+
+    void GiveBlood()
+    {
+    animControler.Wooloo();
+    Destroy(gameObject);
     }
 }

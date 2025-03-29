@@ -38,4 +38,8 @@ public class AnimControler : MonoBehaviour
         }
        
     }
+    public void Wooloo() 
+    {
+        animator.SetTrigger("isWololing");
+    }
 }
