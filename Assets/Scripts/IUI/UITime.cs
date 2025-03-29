@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 
@@ -26,6 +27,7 @@ public class UITime : MonoBehaviour
         }
 
         Debug.Log("You dead lol");
+        SceneManager.LoadScene("ScoreBoard");
     }
     // Update is called once per frame
     void Update()

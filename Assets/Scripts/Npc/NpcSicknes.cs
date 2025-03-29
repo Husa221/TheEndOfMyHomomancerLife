@@ -6,6 +6,7 @@ public class NpcSicknes : MonoBehaviour
     [SerializeField] GameObject npcBloodUI;
     public BloodType sickBloodType;
     NPCBloodTrigger nPCBloodTrigger;
+    public Animator sicknessAnimator;
     AnimControler animControler;
     private bool closeEnough = false;
 
@@ -43,6 +44,7 @@ public class NpcSicknes : MonoBehaviour
             if(nPCBloodTrigger.currentBloodType == sickBloodType)
             {
                 GiveBlood();
+                sicknessAnimator.SetTrigger("ishealed");
             }
             else
             {
@@ -54,6 +56,5 @@ public class NpcSicknes : MonoBehaviour
     void GiveBlood()
     {
     animControler.Wooloo();
-    Destroy(gameObject);
     }
 }

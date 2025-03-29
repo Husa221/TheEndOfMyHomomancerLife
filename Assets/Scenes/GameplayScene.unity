@@ -1191,6 +1191,19 @@ MonoBehaviour:
   m_SolverEditorData:
   - color: {r: 0, g: 1, b: 0, a: 1}
     showGizmo: 1
+--- !u!114 &289300053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289300045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495ca3e0b7ad7f246b13d6545ef1876d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cowToMercileslyKill: {fileID: 448124214}
 --- !u!4 &291441141 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1966819611103554515, guid: 48ce52eeb15d01041904c46f3e52775d, type: 3}
@@ -1886,6 +1899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcBloodUI: {fileID: 1092464012}
   sickBloodType: 1
+  sicknessAnimator: {fileID: 289300047}
 --- !u!70 &448124216
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3921,6 +3935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcBloodUI: {fileID: 1701411985}
   sickBloodType: 0
+  sicknessAnimator: {fileID: 819044358}
 --- !u!70 &769645731
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4213,6 +4228,32 @@ MonoBehaviour:
   m_SolverEditorData:
   - color: {r: 0, g: 1, b: 0, a: 1}
     showGizmo: 1
+--- !u!114 &819044364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819044356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495ca3e0b7ad7f246b13d6545ef1876d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cowToMercileslyKill: {fileID: 769645729}
+--- !u!114 &819044365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819044356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495ca3e0b7ad7f246b13d6545ef1876d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cowToMercileslyKill: {fileID: 0}
 --- !u!1 &849067126
 GameObject:
   m_ObjectHideFlags: 0
@@ -4546,6 +4587,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 48ce52eeb15d01041904c46f3e52775d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1940713039}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 48ce52eeb15d01041904c46f3e52775d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1940713045}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 48ce52eeb15d01041904c46f3e52775d, type: 3}
 --- !u!4 &912650419 stripped
 Transform:
@@ -7145,6 +7189,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 48ce52eeb15d01041904c46f3e52775d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 289300047}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 48ce52eeb15d01041904c46f3e52775d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 289300053}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 48ce52eeb15d01041904c46f3e52775d, type: 3}
 --- !u!4 &1288890612 stripped
 Transform:
@@ -10496,6 +10543,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 48ce52eeb15d01041904c46f3e52775d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 819044358}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 48ce52eeb15d01041904c46f3e52775d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 819044365}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 48ce52eeb15d01041904c46f3e52775d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 819044364}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 48ce52eeb15d01041904c46f3e52775d, type: 3}
 --- !u!4 &1758384329 stripped
 Transform:
@@ -11500,6 +11553,19 @@ MonoBehaviour:
   m_SolverEditorData:
   - color: {r: 0, g: 1, b: 0, a: 1}
     showGizmo: 1
+--- !u!114 &1940713045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940713037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495ca3e0b7ad7f246b13d6545ef1876d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cowToMercileslyKill: {fileID: 2125773044}
 --- !u!1 &1943932854
 GameObject:
   m_ObjectHideFlags: 0
@@ -12307,6 +12373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcBloodUI: {fileID: 1746636922}
   sickBloodType: 2
+  sicknessAnimator: {fileID: 1940713039}
 --- !u!70 &2125773046
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
