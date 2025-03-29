@@ -116,12 +116,12 @@ TextureImporter:
       name: menuButtonBG_0
       rect:
         serializedVersion: 2
-        x: 59
-        y: 115
-        width: 1016
-        height: 157
+        x: 32
+        y: 110
+        width: 1111
+        height: 166
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 41889ac5c366f154ab0dbee2038caa3b
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      menuButtonBG_0: -924993482101707543
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
