@@ -2618,7 +2618,7 @@ ScriptedImporter:
       guid: 1938162852861e447918276aa0da3ca0
       position: {x: 137.05396, y: 701.0759, z: 0}
       rotation: {x: 0, y: 0, z: -0.7313605, w: 0.68199116}
-      length: 324.00076
+      length: 324.0008
       parentId: -1
       color:
         serializedVersion: 2
@@ -4089,9 +4089,9 @@ ScriptedImporter:
     spriteBone:
     - name: PP2
       guid: 0e430567644f58a4381864e0a24a3ada
-      position: {x: 287.98907, y: 0.00048734117, z: 0}
-      rotation: {x: 0, y: 0, z: -0.024733713, w: 0.9996941}
-      length: 300.00153
+      position: {x: 287.98923, y: -0.000041028823, z: 0}
+      rotation: {x: 0, y: 0, z: -0.024734683, w: 0.99969405}
+      length: 300.00146
       parentId: 1
       color:
         serializedVersion: 2
@@ -4099,8 +4099,8 @@ ScriptedImporter:
     - name: PP1
       guid: dd0829c758e80b745b398638ea426da3
       position: {x: 156.99622, y: 641.5397, z: 0}
-      rotation: {x: 0, y: 0, z: -0.74018073, w: 0.6724081}
-      length: 287.98938
+      rotation: {x: 0, y: 0, z: -0.7401801, w: 0.6724088}
+      length: 287.9894
       parentId: -1
       color:
         serializedVersion: 2
@@ -4503,54 +4503,54 @@ ScriptedImporter:
     spriteBone:
     - name: Ocas6
       guid: ec1864688f17eee4cabcc3e0c3e388a5
-      position: {x: 61.63621, y: 0.000012234162, z: 0}
-      rotation: {x: 0, y: 0, z: 0.3551805, w: 0.93479776}
-      length: 80.55015
+      position: {x: 61.63598, y: -0.00011698485, z: 0}
+      rotation: {x: 0, y: 0, z: 0.35518092, w: 0.9347976}
+      length: 80.55036
       parentId: 2
       color:
         serializedVersion: 2
         rgba: 4286643968
     - name: Ocas7
       guid: 6317681cfe3814e44890e1fa4a238cee
-      position: {x: 80.55033, y: -0.00007449073, z: 0}
-      rotation: {x: 0, y: 0, z: 0.15045112, w: 0.9886175}
-      length: 117.39424
+      position: {x: 80.55044, y: -0.00001714981, z: 0}
+      rotation: {x: 0, y: 0, z: 0.15045118, w: 0.9886175}
+      length: 117.39426
       parentId: 0
       color:
         serializedVersion: 2
         rgba: 4294934528
     - name: Ocas5
       guid: 88a137063d4237f45977009549bc120a
-      position: {x: 71.28689, y: -0.00005360009, z: 0}
-      rotation: {x: 0, y: 0, z: 0.1364957, w: 0.9906407}
-      length: 61.63621
+      position: {x: 71.28674, y: 0.00009989099, z: 0}
+      rotation: {x: 0, y: 0, z: 0.13649608, w: 0.9906407}
+      length: 61.635967
       parentId: 3
       color:
         serializedVersion: 2
         rgba: 4278255488
     - name: Ocas4
       guid: 504da0786e6521a46b4979f17430cdba
-      position: {x: 90.483055, y: 0.00013045678, z: 0}
-      rotation: {x: 0, y: 0, z: 0.16552825, w: 0.9862051}
-      length: 71.28687
+      position: {x: 90.48291, y: 0.000010340602, z: 0}
+      rotation: {x: 0, y: 0, z: 0.16552804, w: 0.9862051}
+      length: 71.28678
       parentId: 4
       color:
         serializedVersion: 2
         rgba: 4278190335
     - name: Ocas3
       guid: 230b00a36cd6f914882fc5090c21345c
-      position: {x: 91.79284, y: 0.0000059688514, z: 0}
-      rotation: {x: 0, y: 0, z: 0.1572205, w: 0.98756355}
-      length: 90.48285
+      position: {x: 91.79279, y: 0.00021840661, z: 0}
+      rotation: {x: 0, y: 0, z: 0.15721992, w: 0.9875636}
+      length: 90.48282
       parentId: 5
       color:
         serializedVersion: 2
         rgba: 4294902015
     - name: Ocas2
       guid: 49f958923b6174c4b878929d5314faa9
-      position: {x: 95.37485, y: 0.00013990651, z: 0}
-      rotation: {x: 0, y: 0, z: 0.15502006, w: 0.98791134}
-      length: 91.79297
+      position: {x: 95.37476, y: -0.000017171742, z: 0}
+      rotation: {x: 0, y: 0, z: 0.15501961, w: 0.9879114}
+      length: 91.79307
       parentId: 6
       color:
         serializedVersion: 2
@@ -4558,8 +4558,8 @@ ScriptedImporter:
     - name: Ocas1
       guid: 8a93b371b9659d84bb64ea8a2ad7fa6c
       position: {x: 29.138855, y: 267.7223, z: 0}
-      rotation: {x: 0, y: 0, z: -0.58906204, w: 0.8080879}
-      length: 95.37446
+      rotation: {x: 0, y: 0, z: -0.58906156, w: 0.80808824}
+      length: 95.37449
       parentId: -1
       color:
         serializedVersion: 2
@@ -5238,7 +5238,7 @@ ScriptedImporter:
     - name: LP2
       guid: a250d6d6ef1371f49a835707f7a643b7
       position: {x: 259.26572, y: 0.00004333137, z: 0}
-      rotation: {x: 0, y: 0, z: -0.07872476, w: 0.9968964}
+      rotation: {x: 0, y: 0, z: -0.07872477, w: 0.99689645}
       length: 345.2543
       parentId: 6
       color:
@@ -5247,7 +5247,7 @@ ScriptedImporter:
     - name: PP1
       guid: dd0829c758e80b745b398638ea426da3
       position: {x: -97.56815, y: 145.4511, z: 0}
-      rotation: {x: 0, y: -0, z: -0.99946326, w: 0.032759365}
+      rotation: {x: 0, y: -0, z: -0.9994633, w: 0.03275841}
       length: 287.98938
       parentId: 2
       color:
@@ -5255,8 +5255,8 @@ ScriptedImporter:
         rgba: 4286643968
     - name: PP2
       guid: 0e430567644f58a4381864e0a24a3ada
-      position: {x: 287.98938, y: -0.000086377026, z: 0}
-      rotation: {x: 0, y: 0, z: -0.024734724, w: 0.9996941}
+      position: {x: 287.9893, y: 0.00047006254, z: 0}
+      rotation: {x: 0, y: 0, z: -0.02473377, w: 0.9996941}
       length: 300.0015
       parentId: 8
       color:
@@ -5265,16 +5265,16 @@ ScriptedImporter:
     - name: LZ1
       guid: 1938162852861e447918276aa0da3ca0
       position: {x: 48.188442, y: -132.45964, z: 0}
-      rotation: {x: 0, y: -0, z: -0.9990936, w: 0.04256841}
-      length: 324.00076
+      rotation: {x: 0, y: -0, z: -0.9990936, w: 0.042569004}
+      length: 324.00064
       parentId: 0
       color:
         serializedVersion: 2
         rgba: 4294901888
     - name: LZ2
       guid: c2b910bc4d2b95a42bbc637b42445789
-      position: {x: 324.00076, y: 0.0002543835, z: 0}
-      rotation: {x: 0, y: 0, z: 0.10177805, w: 0.9948071}
+      position: {x: 324.00073, y: -0.000030260304, z: 0}
+      rotation: {x: 0, y: 0, z: 0.101777464, w: 0.99480724}
       length: 351.76407
       parentId: 10
       color:
@@ -5301,66 +5301,75 @@ ScriptedImporter:
     - name: Ocas1
       guid: 8a93b371b9659d84bb64ea8a2ad7fa6c
       position: {x: 26.486454, y: -196.66457, z: 0}
-      rotation: {x: 0, y: -0, z: -0.9729783, w: 0.23089668}
-      length: 95.374535
+      rotation: {x: 0, y: -0, z: -0.97297823, w: 0.23089705}
+      length: 95.37449
       parentId: 0
       color:
         serializedVersion: 2
         rgba: 4294967040
     - name: Ocas2
       guid: 49f958923b6174c4b878929d5314faa9
-      position: {x: 95.3745, y: -0.000026608803, z: 0}
-      rotation: {x: 0, y: 0, z: 0.15501988, w: 0.98791134}
-      length: 91.792984
+      position: {x: 95.37449, y: -0.00000439263, z: 0}
+      rotation: {x: 0, y: 0, z: 0.1550196, w: 0.9879114}
+      length: 91.79306
       parentId: 14
       color:
         serializedVersion: 2
         rgba: 4294901760
     - name: Ocas3
       guid: 230b00a36cd6f914882fc5090c21345c
-      position: {x: 91.79297, y: 0.000007002567, z: 0}
-      rotation: {x: 0, y: 0, z: 0.15722078, w: 0.9875635}
-      length: 90.48277
+      position: {x: 91.793045, y: 0.000022167013, z: 0}
+      rotation: {x: 0, y: 0, z: 0.15722032, w: 0.98756355}
+      length: 90.48283
       parentId: 15
       color:
         serializedVersion: 2
         rgba: 4294902015
     - name: Ocas4
       guid: 504da0786e6521a46b4979f17430cdba
-      position: {x: 90.4828, y: -0.000085375985, z: 0}
-      rotation: {x: 0, y: 0, z: 0.16552807, w: 0.9862051}
-      length: 71.28692
+      position: {x: 90.482834, y: -0.00006273466, z: 0}
+      rotation: {x: 0, y: 0, z: 0.1655279, w: 0.9862051}
+      length: 71.28687
       parentId: 16
       color:
         serializedVersion: 2
         rgba: 4278190335
     - name: Ocas5
       guid: 88a137063d4237f45977009549bc120a
-      position: {x: 71.28691, y: 0.000014731842, z: 0}
-      rotation: {x: 0, y: 0, z: 0.13649504, w: 0.99064076}
-      length: 61.636208
+      position: {x: 71.2868, y: -0.00006166831, z: 0}
+      rotation: {x: 0, y: 0, z: 0.13649592, w: 0.99064064}
+      length: 61.636078
       parentId: 17
       color:
         serializedVersion: 2
         rgba: 4278255488
     - name: Ocas6
       guid: ec1864688f17eee4cabcc3e0c3e388a5
-      position: {x: 61.63619, y: 0.00003169269, z: 0}
-      rotation: {x: 0, y: 0, z: 0.35518104, w: 0.9347976}
-      length: 80.55017
+      position: {x: 61.635994, y: -0.0000094377965, z: 0}
+      rotation: {x: 0, y: 0, z: 0.35518056, w: 0.93479776}
+      length: 80.5503
       parentId: 18
       color:
         serializedVersion: 2
         rgba: 4286643968
     - name: Ocas7
       guid: 6317681cfe3814e44890e1fa4a238cee
-      position: {x: 80.55011, y: -0.00006200875, z: 0}
-      rotation: {x: 0, y: 0, z: 0.15045092, w: 0.9886175}
+      position: {x: 80.5503, y: 0.000017219514, z: 0}
+      rotation: {x: 0, y: 0, z: 0.1504512, w: 0.9886175}
       length: 117.394226
       parentId: 19
       color:
         serializedVersion: 2
         rgba: 4294934528
+    - name: Oci
+      guid: 99b6397dc8883c1489d54d3389dc456c
+      position: {x: 140.4725, y: -68.7177, z: 0}
+      rotation: {x: 0, y: 0, z: 0.6431312, w: 0.7657561}
+      length: 133.92131
+      parentId: 3
+      color:
+        serializedVersion: 2
+        rgba: 4294901888
     parts:
     - spritePosition:
         x: 784
