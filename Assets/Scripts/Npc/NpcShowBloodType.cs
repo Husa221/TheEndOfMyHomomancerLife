@@ -37,14 +37,17 @@ public class NpcShowBloodType : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.E) && closeEnough) 
         {
+            nPCBloodTrigger.bloodUI[(int)nPCBloodTrigger.currentBloodType].SetActive(false);
            nPCBloodTrigger.currentBloodType = bloodType;
+            nPCBloodTrigger.bloodUI[(int)nPCBloodTrigger.currentBloodType].SetActive(true);
             Debug.Log("Player Coppied:" +  nPCBloodTrigger.currentBloodType);
         }
     }
     public enum BloodType
     {
-    Aplus,
-    Aminus
+    A,
+    B,
+    AB
     }
 
 }
