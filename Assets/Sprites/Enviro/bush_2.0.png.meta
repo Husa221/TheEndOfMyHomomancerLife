@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 811bd0fc7ba6aad4caf92c0c869efd7d
+guid: ceaea7124def98942bd7717a1c2c4f85
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8416243949045666254
-    second: Untitled_Artwork 1_0
-  - first:
-      213: -7652961046376491542
-    second: Untitled_Artwork 1_1
-  - first:
-      213: 4115303021519320934
-    second: Untitled_Artwork 1_2
+      213: 3928168670775480050
+    second: bush_2.0_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: house1_1
+      name: bush_2.0_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 639
-        height: 809
-      alignment: 9
-      pivot: {x: 0.49722552, y: 0.093140505}
+        x: 56
+        y: 75
+        width: 342
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3d099b1cc0031d74aa24bb7f7408f2fe
-      internalID: 344182294
+      spriteID: 2fe046ff798a38630800000000000000
+      internalID: 3928168670775480050
       vertices: []
       indices: 
       edges: []
@@ -144,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d0362a71f8c64b4459b293e102320be8
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -153,10 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      house1_0: 1359353262
-      house1_1: 344182294
-      house1_2: 69450036
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

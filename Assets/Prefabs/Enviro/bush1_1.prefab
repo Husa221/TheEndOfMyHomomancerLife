@@ -74,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1386181563
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7040346865362410759, guid: d52c5fff864ceb14280734981dfb2d35, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -87,7 +87,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!1 &6921274227331150822
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,8 +167,8 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -0.21792781, y: 0.64197636}
-      - {x: -2.4609818, y: 0.013257772}
-      - {x: -2.0510113, y: -0.48212612}
+      - {x: -2.0350616, y: -0.006101817}
+      - {x: -2.3414116, y: -0.4240464}
       - {x: 0.15193057, y: -0.35759616}
-      - {x: 1.9628623, y: 0.24675268}
+      - {x: 1.6918219, y: -0.3146878}
   m_UseDelaunayMesh: 0
