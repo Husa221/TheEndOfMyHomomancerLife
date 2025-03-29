@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dbe20240af13e48489d233a90d7d0d27
+guid: 22c44a26d17638643912c376c429cf0e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -924993482101707543
-    second: menuButtonBG_0
+      213: 7681775189149489396
+    second: menuButtonBG(2)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: menuButtonBG_0
+      name: menuButtonBG(2)_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 110
-        width: 1111
-        height: 166
+        x: 0
+        y: 166
+        width: 1189
+        height: 210
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9eca6cf2453c923f0800000000000000
-      internalID: -924993482101707543
+      spriteID: 4f81aa1b5d52b9a60800000000000000
+      internalID: 7681775189149489396
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 41889ac5c366f154ab0dbee2038caa3b
+    spriteID: 061a7f2991d215e4894880a69a7e9d4e
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      menuButtonBG_0: -924993482101707543
+      menuButtonBG(2)_0: 7681775189149489396
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
