@@ -213,7 +213,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 0, z: 23.123}
+        value: {x: 0, y: 0, z: 24.2}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -3634,7 +3634,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 23.123
+        value: 24.2
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -6373,7 +6373,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Telo_base/Telo2/Krk/Hlava_1
+    path: Telo_base/Telo2/Krk/Hlava_1/Ucho_P_1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -6385,19 +6385,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Telo_base/Telo2/Krk/Hlava_1
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Telo_base/Telo2/Krk/Hlava_1
+    path: Telo_base/Telo2/Krk/Hlava_1/Ucho_P_1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -6420,8 +6408,20 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Telo_base/Telo2/Krk/Hlava_1
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Telo_base/Telo2/Krk/Hlava_1/Ucho_P_1
+    path: Telo_base/Telo2/Krk/Hlava_1
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -6433,7 +6433,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Telo_base/Telo2/Krk/Hlava_1/Ucho_P_1
+    path: Telo_base/Telo2/Krk/Hlava_1
     classID: 4
     script: {fileID: 0}
     flags: 0
