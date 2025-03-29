@@ -4,7 +4,7 @@ using static NpcShowBloodType;
 public class NPCBloodTrigger : MonoBehaviour
 {
     private GameObject bloodReceiverObject;
-    private bool isInTrigger = false;
+    //private bool isInTrigger = false;
     public BloodType currentBloodType;
     public GameObject[] bloodUI;
 
