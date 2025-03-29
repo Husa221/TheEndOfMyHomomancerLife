@@ -11,10 +11,10 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -6854698313044504740}
-    m_Position: {x: 170, y: 140, z: 0}
+    m_Position: {x: 230, y: 180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5660224479443871601}
-    m_Position: {x: 200, y: 70, z: 0}
+    m_Position: {x: 210, y: 30, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -6100994625079857105}
@@ -84,7 +84,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Is iddling
+    m_ConditionEvent: isIddling
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6854698313044504740}
@@ -109,13 +109,13 @@ AnimatorController:
   m_Name: Hemo
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Is running
+  - m_Name: isRunning
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 1
     m_Controller: {fileID: 9100000}
-  - m_Name: Is iddling
+  - m_Name: isIddling
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -143,7 +143,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Is running
+    m_ConditionEvent: isRunning
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5660224479443871601}
