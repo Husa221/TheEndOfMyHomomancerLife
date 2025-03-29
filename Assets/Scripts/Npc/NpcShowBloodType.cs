@@ -47,7 +47,8 @@ public class NpcShowBloodType : MonoBehaviour
     {
     A,
     B,
-    AB
+    AB,
+    None
     }
 
 }
