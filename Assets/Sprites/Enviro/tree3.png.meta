@@ -119,12 +119,12 @@ TextureImporter:
       name: Untitled_Artwork 6_0
       rect:
         serializedVersion: 2
-        x: 54
-        y: 48
-        width: 247
-        height: 545
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 404
+        height: 676
+      alignment: 9
+      pivot: {x: 0.49786535, y: 0.114746794}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -137,33 +137,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Untitled_Artwork 6_1
-      rect:
-        serializedVersion: 2
-        x: 188
-        y: 18
-        width: 21
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a9de817227f88ef0800000000000000
-      internalID: -105562863937070682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7f582569e798dad4f8ee3392caec9a8f
     internalID: 0
     vertices: []
     indices: 
