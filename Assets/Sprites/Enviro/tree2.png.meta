@@ -116,37 +116,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork 8_0
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 667
-        width: 29
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cdbcf699464ed4510800000000000000
-      internalID: 1535134168725310428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Untitled_Artwork 8_1
       rect:
         serializedVersion: 2
-        x: 58
-        y: 54
-        width: 457
-        height: 437
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 557
+        height: 679
+      alignment: 9
+      pivot: {x: 0.518661, y: 0.11602241}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -163,7 +141,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3de1bb8ee4ea48449a96fce0a5f37a8a
     internalID: 0
     vertices: []
     indices: 
