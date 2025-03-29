@@ -1,14 +1,13 @@
 ﻿using UnityEngine;
+using static NpcShowBloodType;
 
 public class NPCBloodTrigger : MonoBehaviour
 {
     private GameObject bloodReceiverObject;
     private bool isInTrigger = false;
+    public BloodType currentBloodType;
+    [SerializeField] GameObject[] bloodUI;
 
-    private void Start()
-    {
-        Debug.Log("Skript je spusten!");
-    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -45,4 +44,5 @@ public class NPCBloodTrigger : MonoBehaviour
             }
         }
     }
+    
 }
