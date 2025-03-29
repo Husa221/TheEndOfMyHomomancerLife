@@ -12,8 +12,11 @@ public class Bleeding : MonoBehaviour
     }
 IEnumerator bleedingOverTime()
     {
-        yield return new WaitForSeconds(1f);
-        Instantiate(bleedingPrefab[Random.Range(0, bleedingPrefab.Length)], gameObject.transform);
+        while (true)
+        {
+            yield return new WaitForSeconds(1f);
+            Instantiate(bleedingPrefab[Random.Range(0, bleedingPrefab.Length)], transform.position, transform.rotation);
+        }
     }
     
 }
