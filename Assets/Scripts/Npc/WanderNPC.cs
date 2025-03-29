@@ -4,7 +4,7 @@ public class WanderNPC : MonoBehaviour
 {
     public float moveRadius = 3f;
     public float moveSpeed = 2f;
-    public float waitTime = 2f;
+    public float maxWaitTime = 2f;
 
     private Vector3 startPosition;
     private Vector3 targetPosition;
@@ -26,7 +26,7 @@ public class WanderNPC : MonoBehaviour
         if (Vector3.Distance(transform.position, targetPosition) < 0.1f)
         {
             isWaiting = true;
-            Invoke(nameof(PickNewDestination), waitTime);
+            Invoke(nameof(PickNewDestination), Random.Range(1f, maxWaitTime));
         }
     }
 
