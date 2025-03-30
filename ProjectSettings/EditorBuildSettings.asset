@@ -7,7 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
-    guid: fe39e038ea344bb40a7605dbf91f19d1
+    guid: e9f7782a2aa6d2e40a63d9658bd97aed
   - enabled: 1
     path: Assets/Scenes/GameplayScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StoryScreen.unity
     guid: c08cdbf7842e7354a9a7df2a1164f76d
+  - enabled: 1
+    path: Assets/Scenes/TutorialScreen.unity
+    guid: 14162744d6b0b994b828e09b4505cd77
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
