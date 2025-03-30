@@ -977,6 +977,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0.99983644
       objectReference: {fileID: 0}
+    - target: {fileID: 1816645261190185250, guid: 10e872ae9d2f7c1438a00a1128decd0f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7425438597007568885, guid: db2bca92b5ee63b4e864fd8528c5d614, type: 3}
     - target: {fileID: 2264087432911539525, guid: 10e872ae9d2f7c1438a00a1128decd0f, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.0000061392775
@@ -1872,6 +1876,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0.9998362
       objectReference: {fileID: 0}
+    - target: {fileID: 1816645261190185250, guid: 10e872ae9d2f7c1438a00a1128decd0f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7425438597007568885, guid: db2bca92b5ee63b4e864fd8528c5d614, type: 3}
     - target: {fileID: 2264087432911539525, guid: 10e872ae9d2f7c1438a00a1128decd0f, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.0000061392775
@@ -6920,6 +6928,10 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 1480099163}
+    - target: {fileID: 1969844089005768456, guid: f6e30ea285362024ea8e2a83c0f59b2a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3147461595043724945, guid: ebd4b285f4177b74e8a6359388768971, type: 3}
     - target: {fileID: 1981918792306305500, guid: f6e30ea285362024ea8e2a83c0f59b2a, type: 3}
       propertyPath: m_Name
       value: BloodGiver (3)
@@ -7901,6 +7913,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.9844253
       objectReference: {fileID: 0}
+    - target: {fileID: 1969844089005768456, guid: f6e30ea285362024ea8e2a83c0f59b2a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3147461595043724945, guid: ebd4b285f4177b74e8a6359388768971, type: 3}
     - target: {fileID: 1981918792306305500, guid: f6e30ea285362024ea8e2a83c0f59b2a, type: 3}
       propertyPath: m_Name
       value: BloodGiver (2)
