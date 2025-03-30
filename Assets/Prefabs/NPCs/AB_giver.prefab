@@ -722,7 +722,7 @@ GameObject:
   - component: {fileID: 4029185544693338785}
   - component: {fileID: 7847557827820999908}
   - component: {fileID: 5387816444370001313}
-  - component: {fileID: 8329357967668761036}
+  - component: {fileID: 5209442824418203921}
   m_Layer: 0
   m_Name: AB_giver
   m_TagString: BloodReceiver
@@ -843,7 +843,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!210 &8329357967668761036
+--- !u!210 &5209442824418203921
 SortingGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -851,8 +851,8 @@ SortingGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8981744027776077951}
   m_Enabled: 1
-  m_SortingLayerID: -1386181563
-  m_SortingLayer: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!1 &9208993937059072508

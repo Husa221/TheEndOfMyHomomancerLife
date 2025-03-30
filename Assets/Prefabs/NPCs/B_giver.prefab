@@ -205,7 +205,6 @@ GameObject:
   - component: {fileID: 3969715455970606308}
   - component: {fileID: 1569263444564559143}
   - component: {fileID: 5856354760706544432}
-  - component: {fileID: 2356662706833846934}
   m_Layer: 0
   m_Name: B_giver
   m_TagString: BloodReceiver
@@ -326,18 +325,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!210 &2356662706833846934
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981918792306305500}
-  m_Enabled: 1
-  m_SortingLayerID: -1386181563
-  m_SortingLayer: 1
-  m_SortingOrder: 0
-  m_SortAtRoot: 0
 --- !u!1 &2554654610750608699
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,6 +1191,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 3914171aecbda414f811bbe5a73a93b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6872557157093214832}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 3914171aecbda414f811bbe5a73a93b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1904953619762818553}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 3914171aecbda414f811bbe5a73a93b9, type: 3}
 --- !u!4 &38332185767143496 stripped
 Transform:
@@ -1407,6 +1397,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!210 &1904953619762818553
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5954627670425308701}
+  m_Enabled: 1
+  m_SortingLayerID: -1386181563
+  m_SortingLayer: 1
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!4 &8594802525469719211 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -6772843386728114933, guid: 3914171aecbda414f811bbe5a73a93b9, type: 3}
