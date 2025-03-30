@@ -128,12 +128,12 @@ TextureImporter:
       name: Untitled_Artwork 3_2
       rect:
         serializedVersion: 2
-        x: 99
-        y: 96
+        x: 142
+        y: 89
         width: 390
         height: 183
       alignment: 9
-      pivot: {x: 0.5034053, y: -0.06364508}
+      pivot: {x: 0.4948189, y: 0.059871487}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
