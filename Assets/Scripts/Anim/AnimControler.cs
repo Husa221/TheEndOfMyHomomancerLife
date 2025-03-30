@@ -36,26 +36,28 @@ public class AnimControler : MonoBehaviour
             animator.SetBool("isIddling", false);
         } else if (rb.linearVelocity.x == 0 && rb.linearVelocity.y == 0)
         {
+            walkSound.Stop();
             walkSoundIsPlaying = false;
             animator.SetBool("isRunning", false);
             animator.SetBool("isIddling", true);
         }
-        if((rb.linearVelocity.x != 0 && rb.linearVelocity.y != 0) && !walkSoundIsPlaying)
+        if((rb.linearVelocity.x != 0 || rb.linearVelocity.y != 0) && !walkSoundIsPlaying)
         {
             walkSound.Play();
             walkSoundIsPlaying = true;
         }
        
+       
     }
     public void Wooloo() 
     {
-       
+        walkSound.Stop();
         playerMovement.isDoingMagic = true;
         animator.SetTrigger("isWololing");
     }
     public void Death()
     {
-       
+        walkSound.Stop();
         playerMovement.isDoingMagic = true;
         animator.SetTrigger("isDying");
     }
