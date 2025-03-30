@@ -6,7 +6,8 @@ public class AnimControler : MonoBehaviour
     Rigidbody2D rb;
     [SerializeField] Transform grafics;
     PlayerMovement playerMovement;
-
+    [SerializeField] AudioSource walkSound;
+    bool walkSoundIsPlaying = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -35,18 +36,26 @@ public class AnimControler : MonoBehaviour
             animator.SetBool("isIddling", false);
         } else if (rb.linearVelocity.x == 0 && rb.linearVelocity.y == 0)
         {
+            walkSoundIsPlaying = false;
             animator.SetBool("isRunning", false);
             animator.SetBool("isIddling", true);
+        }
+        if((rb.linearVelocity.x != 0 && rb.linearVelocity.y != 0) && !walkSoundIsPlaying)
+        {
+            walkSound.Play();
+            walkSoundIsPlaying = true;
         }
        
     }
     public void Wooloo() 
     {
+       
         playerMovement.isDoingMagic = true;
         animator.SetTrigger("isWololing");
     }
     public void Death()
     {
+       
         playerMovement.isDoingMagic = true;
         animator.SetTrigger("isDying");
     }
