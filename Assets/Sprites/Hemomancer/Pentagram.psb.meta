@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a45f9b66655e22b449325107f5e25d7f
+guid: 29b80dcd5ef82d141b797288a62c405b
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -83,7 +83,7 @@ ScriptedImporter:
       y: 0
       width: 0
       height: 0
-    spriteID: a37d06d364d63f44884c4344979a2cf5
+    spriteID: 69162ca2786753347bcdb85ef511f75b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -107,7 +107,7 @@ ScriptedImporter:
       y: 4
       width: 2598
       height: 1415
-    spriteID: 593e8175d51ecfb4b9936a26f007ac5a
+    spriteID: c0b71f246f4537147be59fa21beaa45a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -129,7 +129,7 @@ ScriptedImporter:
       y: 1427
       width: 1908
       height: 793
-    spriteID: 4ad290a3c8481844eb774e81741149b1
+    spriteID: 0b79cd4f3aca5db4b8e5bcc7df4bcf0b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -182,7 +182,7 @@ ScriptedImporter:
     spriteName: P_glow
     isGroup: 0
     parentIndex: -1
-    spriteID: 593e8175d51ecfb4b9936a26f007ac5a
+    spriteID: c0b71f246f4537147be59fa21beaa45a
     layerID: 2
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
@@ -192,7 +192,7 @@ ScriptedImporter:
     spriteName: P
     isGroup: 0
     parentIndex: -1
-    spriteID: 4ad290a3c8481844eb774e81741149b1
+    spriteID: 0b79cd4f3aca5db4b8e5bcc7df4bcf0b
     layerID: 4
     mosaicPosition: {x: 4, y: 1427}
     flatten: 0
