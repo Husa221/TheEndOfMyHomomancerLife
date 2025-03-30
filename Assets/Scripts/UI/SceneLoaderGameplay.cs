@@ -5,6 +5,6 @@ public class SceneLoaderGameplay : MonoBehaviour
 {
     public void LoadNextScene()
     {
-        SceneManager.LoadScene("TutorialScreen"); // Nahraď názvem tvé scény
+        SceneManager.LoadScene("GameplayScene"); // Nahraď názvem tvé scény
     }
 }
