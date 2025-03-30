@@ -6159,7 +6159,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.26666668
-    functionName: 
+    functionName: WooloPlay
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
