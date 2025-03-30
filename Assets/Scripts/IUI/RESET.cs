@@ -6,6 +6,7 @@ public class RESET : MonoBehaviour
     void Start()
     {
         NPCCounter.npcCounter = 0;
+        Debug.Log("Kravicekzachraneno:" + NPCCounter.npcCounter);
     }
 
     
