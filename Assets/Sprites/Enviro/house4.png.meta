@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 73f96ac9851cf034bb47cea6790b2262
+guid: 581acc838940a274cbb880df4f9e267b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1302723820812287101
-    second: Untitled_Artwork_0
-  - first:
-      213: 6146782616825927046
-    second: Untitled_Artwork_1
+      213: -7938445121044960685
+    second: house4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,45 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork_0
+      name: house4_0
       rect:
         serializedVersion: 2
-        x: 372
-        y: 118
-        width: 380
-        height: 1255
+        x: 40
+        y: 70
+        width: 581
+        height: 634
       alignment: 9
-      pivot: {x: 0.4534562, y: 0.07345491}
+      pivot: {x: 0.49389696, y: 0.007822849}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7cb4f3b964341210800000000000000
-      internalID: 1302723820812287101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled_Artwork_1
-      rect:
-        serializedVersion: 2
-        x: 751
-        y: 174
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 68594731932cd4550800000000000000
-      internalID: 6146782616825927046
+      spriteID: 35aae2bd83af4d190800000000000000
+      internalID: -7938445121044960685
       vertices: []
       indices: 
       edges: []
@@ -163,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e260b06d20ef7cc42ba09846f8904c1a
+    spriteID: 6734610073a0d8843b42742dc4fe01d9
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Untitled_Artwork_0: 1302723820812287101
-      Untitled_Artwork_1: 6146782616825927046
+      house4_0: -7938445121044960685
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
