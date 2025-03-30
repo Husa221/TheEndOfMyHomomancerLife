@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7391992594405877837}
   - component: {fileID: 5063552131123381201}
   m_Layer: 0
-  m_Name: house1_1
+  m_Name: house1_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: -1386181563
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 344182294, guid: 811bd0fc7ba6aad4caf92c0c869efd7d, type: 3}
+  m_Sprite: {fileID: -7938445121044960685, guid: 581acc838940a274cbb880df4f9e267b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -166,9 +166,9 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -12.175598, y: -0.87881064}
-      - {x: -16.792067, y: -0.9391837}
-      - {x: -17.023682, y: -1.6196561}
-      - {x: -14.443593, y: -1.602427}
-      - {x: -11.925493, y: -1.62855}
+    - - {x: -12.345215, y: -0.67922187}
+      - {x: -16.793274, y: -0.64040434}
+      - {x: -17.670027, y: -1.475035}
+      - {x: -14.396014, y: -1.8878973}
+      - {x: -11.61744, y: -1.4962947}
   m_UseDelaunayMesh: 0

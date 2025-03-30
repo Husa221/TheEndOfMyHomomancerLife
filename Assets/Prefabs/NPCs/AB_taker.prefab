@@ -107,7 +107,6 @@ GameObject:
   - component: {fileID: 1621328212545258402}
   - component: {fileID: 3771675418136219702}
   - component: {fileID: 6082171060085483046}
-  - component: {fileID: 6115240080214643354}
   m_Layer: 0
   m_Name: AB_taker
   m_TagString: BloodReceiver
@@ -184,18 +183,6 @@ MonoBehaviour:
   npcBloodUI: {fileID: 4792216259883882707}
   sickBloodType: 2
   sicknessAnimator: {fileID: 26462493326553016}
---- !u!210 &6115240080214643354
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1085040479803237487}
-  m_Enabled: 1
-  m_SortingLayerID: -1386181563
-  m_SortingLayer: 1
-  m_SortingOrder: 0
-  m_SortAtRoot: 0
 --- !u!1 &1328751580715113492
 GameObject:
   m_ObjectHideFlags: 0
@@ -1250,6 +1237,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 48ce52eeb15d01041904c46f3e52775d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1036648676629561379}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 48ce52eeb15d01041904c46f3e52775d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5430325390180578451}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 48ce52eeb15d01041904c46f3e52775d, type: 3}
 --- !u!4 &563916888002283938 stripped
 Transform:
@@ -1441,6 +1431,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cowToMercileslyKill: {fileID: 1085040479803237487}
+--- !u!210 &5430325390180578451
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8014995846076126981}
+  m_Enabled: 1
+  m_SortingLayerID: -1386181563
+  m_SortingLayer: 1
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!4 &8122628995483222627 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1757621664148305115, guid: 48ce52eeb15d01041904c46f3e52775d, type: 3}
