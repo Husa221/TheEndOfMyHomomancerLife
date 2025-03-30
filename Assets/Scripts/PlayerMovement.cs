@@ -17,10 +17,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         distance = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
-        if (isDoingMagic )
-        {
-            
-        }
+
     }
     private void FixedUpdate()
     {
@@ -34,4 +31,6 @@ public class PlayerMovement : MonoBehaviour
             rb2d.linearVelocity = Vector2.zero;
         }
     }
+
+    
 }
