@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using static NpcShowBloodType;
 
@@ -10,6 +11,8 @@ public class NpcSicknes : MonoBehaviour
     public Animator sicknessAnimator;
     AnimControler animControler;
     private bool closeEnough = false;
+    [SerializeField] GameObject badBloodType;
+    [SerializeField] float infoTimer = 2f;
 
     private void Awake()
     {
@@ -57,6 +60,7 @@ public class NpcSicknes : MonoBehaviour
             else
             {
                 Debug.Log("spatnej typ krve");
+                StartCoroutine(BadBloodType());
             }
         }
     }
@@ -65,5 +69,11 @@ public class NpcSicknes : MonoBehaviour
     {
         NPCCounter.npcCounter++;
     animControler.Wooloo();
+    }
+    IEnumerator BadBloodType()
+    {
+        badBloodType.SetActive(true);
+        yield return new WaitForSeconds(infoTimer);
+        badBloodType.SetActive(false);
     }
 }
