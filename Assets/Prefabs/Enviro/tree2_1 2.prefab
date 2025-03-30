@@ -66,7 +66,7 @@ PolygonCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.1, y: 3.13}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -78,11 +78,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -13.360408, y: -0.84772897}
-      - {x: -13.045346, y: -0.33068776}
-      - {x: -16.832859, y: -0.39889145}
-      - {x: -16.77662, y: -0.780797}
-      - {x: -13.985844, y: -1.4133017}
+    - - {x: -14.911914, y: -3.3636534}
+      - {x: -15.102044, y: -3.3385813}
+      - {x: -15.55829, y: -3.3610296}
+      - {x: -15.543645, y: -3.7719278}
+      - {x: -14.977493, y: -3.8462746}
   m_UseDelaunayMesh: 0
 --- !u!1 &7692281266767772141
 GameObject:
@@ -161,7 +161,7 @@ SpriteRenderer:
   m_SortingLayerID: -1386181563
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2541579827414792756, guid: 73f96ac9851cf034bb47cea6790b2262, type: 3}
+  m_Sprite: {fileID: -4579556511493083371, guid: f7b6c4d9491c67647b774daafd55c404, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
