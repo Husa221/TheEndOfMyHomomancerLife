@@ -2103,7 +2103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbe5c5b515ccd624f9f4f166d6df503f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 125
+  time: 10
   timerMaxBar: 125
   timersBarMask: {fileID: 1315739156}
   debugtime: 0

@@ -45,4 +45,9 @@ public class AnimControler : MonoBehaviour
         playerMovement.isDoingMagic = true;
         animator.SetTrigger("isWololing");
     }
+    public void Death()
+    {
+        playerMovement.isDoingMagic = true;
+        animator.SetTrigger("isDying");
+    }
 }

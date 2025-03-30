@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AnimRelease : MonoBehaviour
 {
@@ -12,5 +13,9 @@ public class AnimRelease : MonoBehaviour
     public void ReleaseFromChanting()
     {
         playerMovement.isDoingMagic = false;
+    }
+    public void Endgame()
+    {
+        SceneManager.LoadScene("ScoreBoard");
     }
 }

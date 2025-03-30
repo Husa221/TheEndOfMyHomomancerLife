@@ -9,11 +9,14 @@ public class UITime : MonoBehaviour
     public float time = 100;
     [SerializeField] float timerMaxBar = 100;
     public Image timersBarMask;
+    AnimControler animControler;
+
     [SerializeField] bool debugtime = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         StartCoroutine(DecreaseScoreOverTime());
+        animControler = FindAnyObjectByType<AnimControler>();
     }
 
     IEnumerator DecreaseScoreOverTime()
@@ -27,7 +30,8 @@ public class UITime : MonoBehaviour
         }
 
         Debug.Log("You dead lol");
-        SceneManager.LoadScene("ScoreBoard");
+        //SceneManager.LoadScene("ScoreBoard");
+        animControler.Death();
     }
     // Update is called once per frame
     void Update()
